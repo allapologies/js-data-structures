@@ -1,3 +1,4 @@
-export const LinkedList = () => {
-    return false
+export function LinkedList () {
+    this.head = null;
+    this.tail = null;
 }
