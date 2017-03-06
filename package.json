@@ -9,13 +9,22 @@
   "author": "Aleksandr Panteleev",
   "license": "ISC",
   "devDependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.4.0",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "babel-preset-env": "^1.2.0",
+    "babel-preset-es2015": "^6.22.0",
     "eslint": "^3.17.0",
     "eslint-config-airbnb-base": "^11.1.1",
     "eslint-plugin-import": "^2.2.0",
     "jasmine": "^2.5.3",
     "jasmine-core": "^2.5.2",
     "karma": "^1.5.0",
+    "karma-babel-preprocessor": "^6.0.1",
     "karma-chrome-launcher": "^2.0.0",
-    "karma-jasmine": "^1.1.0"
+    "karma-jasmine": "^1.1.0",
+    "karma-webpack": "^2.0.2",
+    "webpack": "^2.2.1"
   }
 }
